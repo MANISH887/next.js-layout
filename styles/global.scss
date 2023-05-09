@@ -1,0 +1,106 @@
+html {
+  font-family: Manrope, Helvetica Neue, Arial, sans-serif;
+}
+
+:root {
+  --Primarycolor: #049aad;
+  --Secondarycolor: #ff837b;
+  --Whitecolor: #ffffff;
+  --Bodybackground: #fafafa;
+  --Navselectcolor: #4f5858;
+  --Navnormalcolor: #757779;
+  --Notifycolor: #f30000;
+  --Innergraycolor: #f2f2f2;
+  --headingcolor: #4f5858;
+  --cardTopColor: #626a6a;
+  --bodytextcolor: #4f5858;
+  --progressbar: #29d493;
+  --progressbar2: #5ecedd;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0 !important; // this is to overcome view shift on opening the mui modals
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background-color: var(--Bodybackground) !important;
+  // background-image: url("./images/bg-butterfly-trans.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  font-family: Manrope, Helvetica Neue, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+// Generic color classes
+.primary {
+  color: var(--Primarycolor);
+}
+
+.bg-primary {
+  background-color: var(--Primarycolor);
+}
+
+.secondary {
+  color: var(--Secondarycolor);
+}
+
+.bg-secondary {
+  background-color: var(--Secondarycolor);
+}
+
+.header-nav ul {
+  margin: 5px;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.header-nav a {
+  color: #000000;
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.header-nav a.active {
+  color: #222;
+}
+
+.site-footer {
+  margin-top: 1rem;
+  border-top: 1px dotted #adadad;
+  text-align: center;
+  color: #999;
+  font-size: 0.75rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
