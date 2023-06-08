@@ -9,7 +9,7 @@ https://magenta-seahorse-d28757.netlify.app/
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server: 
 
 ```bash
 npm run dev

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <h1 className={styles.Title}>Women Power!</h1>
-      <Image src="/images/post2.png" alt="Large Image" width={200} height={200} />
+      <Image src="/images/post2.png" alt="Large Image" width={210} height={210} />
     </div>
   );
 }
